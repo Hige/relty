@@ -1,0 +1,14 @@
+{
+	"version": "1.0",
+	"name": "relty",
+	"description": "TODO",
+	"icons": {
+		"60": "\/favicon\/firefox_app_60x60.png?v=1.0.0",
+		"128": "\/favicon\/firefox_app_128x128.png?v=1.0.0",
+		"512": "\/favicon\/firefox_app_512x512.png?v=1.0.0"
+	},
+	"developer": {
+		"name": "TODO",
+		"url": "TODO"
+	}
+}

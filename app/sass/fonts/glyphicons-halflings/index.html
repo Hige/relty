@@ -1,0 +1,1701 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!--http://themes-lab.com/pixit/admin/assets/css/icons/glyphicons/-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Glyphicons Halflings</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <style>
+        article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}html,body{margin:0;padding:0}h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-size:100%;line-height:1;font-family:inherit}html{font-size:62.5%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}a:hover,a:active{outline:0}sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{-ms-interpolation-mode:bicubic}html,body{height:100%}body{background:#fff;margin:0;font-size:14px;color:#000;padding:20px 20px}h2{margin:0 0 5px 0;font-size:27px}p,.halflings{display:inline-block;*display:inline;*zoom:1;width:175px;font-size:14px;line-height:14px}p .halflings-icon,.halflings .halflings-icon{margin:0 10px 0 0}p{width:200px}.white-content{margin:0 -20px 0 -20px;padding:20px;background:#000;background:rgba(0,0,0,0.9)}.white-content *,.white-content p,.white-content a{color:#fff}
+/*!
+ *
+ *  Project:  GLYPHICONS HALFLINGS
+ *  Author:   Jan Kovarik - www.glyphicons.com
+ *  Twitter:  @jankovarik
+ *
+ */
+        html,
+        html .halflings {
+            -webkit-font-smoothing: antialiased !important;
+        }
+        @font-face {
+            font-family: 'Glyphicons Halflings';
+            src: url('glyphicons-halflings/glyphicons-halflings-regular.eot');
+            src: url('glyphicons-halflings/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('glyphicons-halflings/glyphicons-halflings-regular.woff') format('woff'), url('glyphicons-halflings/glyphicons-halflings-regular.ttf') format('truetype'), url('glyphicons-halflings/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+        .halflings {
+            display: inline-block;
+            position: relative;
+            padding: 0 0 0 25px;
+            color: #1d1d1b;
+            text-decoration: none;
+            *display: inline;
+            *zoom: 1;
+        }
+        .halflings i:before {
+            position: absolute;
+            left: 0;
+            top: 0;
+            font: 12px/1em 'Glyphicons Halflings';
+            font-style: normal;
+            color: #1d1d1b;
+        }
+        .halflings.white i:before {
+            color: #fff;
+        }
+        .halflings.glass i:before {
+            content: "\e001";
+        }
+        .halflings.music i:before {
+            content: "\e002";
+        }
+        .halflings.search i:before {
+            content: "\e003";
+        }
+        .halflings.envelope i:before {
+            content: "\2709";
+        }
+        .halflings.heart i:before {
+            content: "\e005";
+        }
+        .halflings.star i:before {
+            content: "\e006";
+        }
+        .halflings.star-empty i:before {
+            content: "\e007";
+        }
+        .halflings.user i:before {
+            content: "\e008";
+        }
+        .halflings.film i:before {
+            content: "\e009";
+        }
+        .halflings.th-large i:before {
+            content: "\e010";
+        }
+        .halflings.th i:before {
+            content: "\e011";
+        }
+        .halflings.th-list i:before {
+            content: "\e012";
+        }
+        .halflings.ok i:before {
+            content: "\e013";
+        }
+        .halflings.remove i:before {
+            content: "\e014";
+        }
+        .halflings.zoom-in i:before {
+            content: "\e015";
+        }
+        .halflings.zoom-out i:before {
+            content: "\e016";
+        }
+        .halflings.off i:before {
+            content: "\e017";
+        }
+        .halflings.signal i:before {
+            content: "\e018";
+        }
+        .halflings.cog i:before {
+            content: "\e019";
+        }
+        .halflings.trash i:before {
+            content: "\e020";
+        }
+        .halflings.home i:before {
+            content: "\e021";
+        }
+        .halflings.file i:before {
+            content: "\e022";
+        }
+        .halflings.time i:before {
+            content: "\e023";
+        }
+        .halflings.road i:before {
+            content: "\e024";
+        }
+        .halflings.download-alt i:before {
+            content: "\e025";
+        }
+        .halflings.download i:before {
+            content: "\e026";
+        }
+        .halflings.upload i:before {
+            content: "\e027";
+        }
+        .halflings.inbox i:before {
+            content: "\e028";
+        }
+        .halflings.play-circle i:before {
+            content: "\e029";
+        }
+        .halflings.repeat i:before {
+            content: "\e030";
+        }
+        .halflings.refresh i:before {
+            content: "\e031";
+        }
+        .halflings.list-alt i:before {
+            content: "\e032";
+        }
+        .halflings.lock i:before {
+            content: "\e033";
+        }
+        .halflings.flag i:before {
+            content: "\e034";
+        }
+        .halflings.headphones i:before {
+            content: "\e035";
+        }
+        .halflings.volume-off i:before {
+            content: "\e036";
+        }
+        .halflings.volume-down i:before {
+            content: "\e037";
+        }
+        .halflings.volume-up i:before {
+            content: "\e038";
+        }
+        .halflings.qrcode i:before {
+            content: "\e039";
+        }
+        .halflings.barcode i:before {
+            content: "\e040";
+        }
+        .halflings.tag i:before {
+            content: "\e041";
+        }
+        .halflings.tags i:before {
+            content: "\e042";
+        }
+        .halflings.book i:before {
+            content: "\e043";
+        }
+        .halflings.bookmark i:before {
+            content: "\e044";
+        }
+        .halflings.print i:before {
+            content: "\e045";
+        }
+        .halflings.camera i:before {
+            content: "\e046";
+        }
+        .halflings.font i:before {
+            content: "\e047";
+        }
+        .halflings.bold i:before {
+            content: "\e048";
+        }
+        .halflings.italic i:before {
+            content: "\e049";
+        }
+        .halflings.text-height i:before {
+            content: "\e050";
+        }
+        .halflings.text-width i:before {
+            content: "\e051";
+        }
+        .halflings.align-left i:before {
+            content: "\e052";
+        }
+        .halflings.align-center i:before {
+            content: "\e053";
+        }
+        .halflings.align-right i:before {
+            content: "\e054";
+        }
+        .halflings.align-justify i:before {
+            content: "\e055";
+        }
+        .halflings.list i:before {
+            content: "\e056";
+        }
+        .halflings.indent-left i:before {
+            content: "\e057";
+        }
+        .halflings.indent-right i:before {
+            content: "\e058";
+        }
+        .halflings.facetime-video i:before {
+            content: "\e059";
+        }
+        .halflings.picture i:before {
+            content: "\e060";
+        }
+        .halflings.pencil i:before {
+            content: "\270f";
+        }
+        .halflings.map-marker i:before {
+            content: "\e062";
+        }
+        .halflings.adjust i:before {
+            content: "\e063";
+        }
+        .halflings.tint i:before {
+            content: "\e064";
+        }
+        .halflings.edit i:before {
+            content: "\e065";
+        }
+        .halflings.share i:before {
+            content: "\e066";
+        }
+        .halflings.check i:before {
+            content: "\e067";
+        }
+        .halflings.move i:before {
+            content: "\e068";
+        }
+        .halflings.step-backward i:before {
+            content: "\e069";
+        }
+        .halflings.fast-backward i:before {
+            content: "\e070";
+        }
+        .halflings.backward i:before {
+            content: "\e071";
+        }
+        .halflings.play i:before {
+            content: "\e072";
+        }
+        .halflings.pause i:before {
+            content: "\e073";
+        }
+        .halflings.stop i:before {
+            content: "\e074";
+        }
+        .halflings.forward i:before {
+            content: "\e075";
+        }
+        .halflings.fast-forward i:before {
+            content: "\e076";
+        }
+        .halflings.step-forward i:before {
+            content: "\e077";
+        }
+        .halflings.eject i:before {
+            content: "\e078";
+        }
+        .halflings.chevron-left i:before {
+            content: "\e079";
+        }
+        .halflings.chevron-right i:before {
+            content: "\e080";
+        }
+        .halflings.plus-sign i:before {
+            content: "\e081";
+        }
+        .halflings.minus-sign i:before {
+            content: "\e082";
+        }
+        .halflings.remove-sign i:before {
+            content: "\e083";
+        }
+        .halflings.ok-sign i:before {
+            content: "\e084";
+        }
+        .halflings.question-sign i:before {
+            content: "\e085";
+        }
+        .halflings.info-sign i:before {
+            content: "\e086";
+        }
+        .halflings.screenshot i:before {
+            content: "\e087";
+        }
+        .halflings.remove-circle i:before {
+            content: "\e088";
+        }
+        .halflings.ok-circle i:before {
+            content: "\e089";
+        }
+        .halflings.ban-circle i:before {
+            content: "\e090";
+        }
+        .halflings.arrow-left i:before {
+            content: "\e091";
+        }
+        .halflings.arrow-right i:before {
+            content: "\e092";
+        }
+        .halflings.arrow-up i:before {
+            content: "\e093";
+        }
+        .halflings.arrow-down i:before {
+            content: "\e094";
+        }
+        .halflings.share-alt i:before {
+            content: "\e095";
+        }
+        .halflings.resize-full i:before {
+            content: "\e096";
+        }
+        .halflings.resize-small i:before {
+            content: "\e097";
+        }
+        .halflings.plus i:before {
+            content: "\002b";
+        }
+        .halflings.minus i:before {
+            content: "\2212";
+        }
+        .halflings.asterisk i:before {
+            content: "\002a";
+        }
+        .halflings.exclamation-sign i:before {
+            content: "\e101";
+        }
+        .halflings.gift i:before {
+            content: "\e102";
+        }
+        .halflings.leaf i:before {
+            content: "\e103";
+        }
+        .halflings.fire i:before {
+            content: "\e104";
+        }
+        .halflings.eye-open i:before {
+            content: "\e105";
+        }
+        .halflings.eye-close i:before {
+            content: "\e106";
+        }
+        .halflings.warning-sign i:before {
+            content: "\e107";
+        }
+        .halflings.plane i:before {
+            content: "\e108";
+        }
+        .halflings.calendar i:before {
+            content: "\e109";
+        }
+        .halflings.random i:before {
+            content: "\e110";
+        }
+        .halflings.comments i:before {
+            content: "\e111";
+        }
+        .halflings.magnet i:before {
+            content: "\e113";
+        }
+        .halflings.chevron-up i:before {
+            content: "\e113";
+        }
+        .halflings.chevron-down i:before {
+            content: "\e114";
+        }
+        .halflings.retweet i:before {
+            content: "\e115";
+        }
+        .halflings.shopping-cart i:before {
+            content: "\e116";
+        }
+        .halflings.folder-close i:before {
+            content: "\e117";
+        }
+        .halflings.folder-open i:before {
+            content: "\e118";
+        }
+        .halflings.resize-vertical i:before {
+            content: "\e119";
+        }
+        .halflings.resize-horizontal i:before {
+            content: "\e120";
+        }
+        .halflings.hdd i:before {
+            content: "\e121";
+        }
+        .halflings.bullhorn i:before {
+            content: "\e122";
+        }
+        .halflings.bell i:before {
+            content: "\e123";
+        }
+        .halflings.certificate i:before {
+            content: "\e124";
+        }
+        .halflings.thumbs-up i:before {
+            content: "\e125";
+        }
+        .halflings.thumbs-down i:before {
+            content: "\e126";
+        }
+        .halflings.hand-right i:before {
+            content: "\e127";
+        }
+        .halflings.hand-left i:before {
+            content: "\e128";
+        }
+        .halflings.hand-top i:before {
+            content: "\e129";
+        }
+        .halflings.hand-down i:before {
+            content: "\e130";
+        }
+        .halflings.circle-arrow-right i:before {
+            content: "\e131";
+        }
+        .halflings.circle-arrow-left i:before {
+            content: "\e132";
+        }
+        .halflings.circle-arrow-top i:before {
+            content: "\e133";
+        }
+        .halflings.circle-arrow-down i:before {
+            content: "\e134";
+        }
+        .halflings.globe i:before {
+            content: "\e135";
+        }
+        .halflings.wrench i:before {
+            content: "\e136";
+        }
+        .halflings.tasks i:before {
+            content: "\e137";
+        }
+        .halflings.filter i:before {
+            content: "\e138";
+        }
+        .halflings.briefcase i:before {
+            content: "\e139";
+        }
+        .halflings.fullscreen i:before {
+            content: "\e140";
+        }
+        .halflings.dashboard i:before {
+            content: "\e141";
+        }
+        .halflings.paperclip i:before {
+            content: "\e142";
+        }
+        .halflings.heart-empty i:before {
+            content: "\e143";
+        }
+        .halflings.link i:before {
+            content: "\e144";
+        }
+        .halflings.phone i:before {
+            content: "\e145";
+        }
+        .halflings.pushpin i:before {
+            content: "\e146";
+        }
+        .halflings.euro i:before {
+            content: "\20ac";
+        }
+        .halflings.usd i:before {
+            content: "\e148";
+        }
+        .halflings.gbp i:before {
+            content: "\e149";
+        }
+        .halflings.sort i:before {
+            content: "\e150";
+        }
+        .halflings.sort-by-alphabet i:before {
+            content: "\e151";
+        }
+        .halflings.sort-by-alphabet-alt i:before {
+            content: "\e152";
+        }
+        .halflings.sort-by-order i:before {
+            content: "\e153";
+        }
+        .halflings.sort-by-order-alt i:before {
+            content: "\e154";
+        }
+        .halflings.sort-by-attributes i:before {
+            content: "\e155";
+        }
+        .halflings.sort-by-attributes-alt i:before {
+            content: "\e156";
+        }
+        .halflings.unchecked i:before {
+            content: "\e157";
+        }
+        .halflings.expand i:before {
+            content: "\e158";
+        }
+        .halflings.collapse i:before {
+            content: "\e159";
+        }
+        .halflings.collapse-top i:before {
+            content: "\e160";
+        }
+        .halflings-icon {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            line-height: 14px;
+            vertical-align: text-top;
+            background-image: url(./glyphicons-halflings/glyphicons-halflings-regular.svg);
+            background-position: 0 0;
+            background-repeat: no-repeat;
+            vertical-align: top;
+            *display: inline;
+            *zoom: 1;
+            *margin-right: .3em;
+        }
+        .no-inlinesvg .halflings-icon {
+            background-image: url(./glyphicons-halflings/glyphicons_halflings.png);
+        }
+        .halflings-icon.white {
+            background-image: url(./glyphicons-halflings/glyphicons_halflings-white.svg);
+        }
+        .no-inlinesvg .halflings-icon.white {
+            background-image: url(./glyphicons-halflings/glyphicons_halflings-white.png);
+        }
+        .halflings-icon.glass {
+            background-position: 0 0;
+        }
+        .halflings-icon.music {
+            background-position: -24px 0;
+        }
+        .halflings-icon.search {
+            background-position: -48px 0;
+        }
+        .halflings-icon.envelope {
+            background-position: -72px 0;
+        }
+        .halflings-icon.heart {
+            background-position: -96px 0;
+        }
+        .halflings-icon.star {
+            background-position: -120px 0;
+        }
+        .halflings-icon.star-empty {
+            background-position: -144px 0;
+        }
+        .halflings-icon.user {
+            background-position: -168px 0;
+        }
+        .halflings-icon.film {
+            background-position: -192px 0;
+        }
+        .halflings-icon.th-large {
+            background-position: -216px 0;
+        }
+        .halflings-icon.th {
+            background-position: -240px 0;
+        }
+        .halflings-icon.th-list {
+            background-position: -264px 0;
+        }
+        .halflings-icon.ok {
+            background-position: -288px 0;
+        }
+        .halflings-icon.remove {
+            background-position: -312px 0;
+        }
+        .halflings-icon.zoom-in {
+            background-position: -336px 0;
+        }
+        .halflings-icon.zoom-out {
+            background-position: -360px 0;
+        }
+        .halflings-icon.off {
+            background-position: -384px 0;
+        }
+        .halflings-icon.signal {
+            background-position: -408px 0;
+        }
+        .halflings-icon.cog {
+            background-position: -432px 0;
+        }
+        .halflings-icon.trash {
+            background-position: -456px 0;
+        }
+        .halflings-icon.home {
+            background-position: 0 -24px;
+        }
+        .halflings-icon.file {
+            background-position: -24px -24px;
+        }
+        .halflings-icon.time {
+            background-position: -48px -24px;
+        }
+        .halflings-icon.road {
+            background-position: -72px -24px;
+        }
+        .halflings-icon.download-alt {
+            background-position: -96px -24px;
+        }
+        .halflings-icon.download {
+            background-position: -120px -24px;
+        }
+        .halflings-icon.upload {
+            background-position: -144px -24px;
+        }
+        .halflings-icon.inbox {
+            background-position: -168px -24px;
+        }
+        .halflings-icon.play-circle {
+            background-position: -192px -24px;
+        }
+        .halflings-icon.repeat {
+            background-position: -216px -24px;
+        }
+        .halflings-icon.refresh {
+            background-position: -240px -24px;
+        }
+        .halflings-icon.list-alt {
+            background-position: -264px -24px;
+        }
+        .halflings-icon.lock {
+            background-position: -287px -24px;
+        }
+        .halflings-icon.flag {
+            background-position: -312px -24px;
+        }
+        .halflings-icon.headphones {
+            background-position: -336px -24px;
+        }
+        .halflings-icon.volume-off {
+            background-position: -360px -24px;
+        }
+        .halflings-icon.volume-down {
+            background-position: -384px -24px;
+        }
+        .halflings-icon.volume-up {
+            background-position: -408px -24px;
+        }
+        .halflings-icon.qrcode {
+            background-position: -432px -24px;
+        }
+        .halflings-icon.barcode {
+            background-position: -456px -24px;
+        }
+        .halflings-icon.tag {
+            background-position: 0 -48px;
+        }
+        .halflings-icon.tags {
+            background-position: -25px -48px;
+        }
+        .halflings-icon.book {
+            background-position: -48px -48px;
+        }
+        .halflings-icon.bookmark {
+            background-position: -72px -48px;
+        }
+        .halflings-icon.print {
+            background-position: -96px -48px;
+        }
+        .halflings-icon.camera {
+            background-position: -120px -48px;
+        }
+        .halflings-icon.font {
+            background-position: -144px -48px;
+        }
+        .halflings-icon.bold {
+            background-position: -167px -48px;
+        }
+        .halflings-icon.italic {
+            background-position: -192px -48px;
+        }
+        .halflings-icon.text-height {
+            background-position: -216px -48px;
+        }
+        .halflings-icon.text-width {
+            background-position: -240px -48px;
+        }
+        .halflings-icon.align-left {
+            background-position: -264px -48px;
+        }
+        .halflings-icon.align-center {
+            background-position: -288px -48px;
+        }
+        .halflings-icon.align-right {
+            background-position: -312px -48px;
+        }
+        .halflings-icon.align-justify {
+            background-position: -336px -48px;
+        }
+        .halflings-icon.list {
+            background-position: -360px -48px;
+        }
+        .halflings-icon.indent-left {
+            background-position: -384px -48px;
+        }
+        .halflings-icon.indent-right {
+            background-position: -408px -48px;
+        }
+        .halflings-icon.facetime-video {
+            background-position: -432px -48px;
+        }
+        .halflings-icon.picture {
+            background-position: -456px -48px;
+        }
+        .halflings-icon.pencil {
+            background-position: 0 -72px;
+        }
+        .halflings-icon.map-marker {
+            background-position: -24px -72px;
+        }
+        .halflings-icon.adjust {
+            background-position: -48px -72px;
+        }
+        .halflings-icon.tint {
+            background-position: -72px -72px;
+        }
+        .halflings-icon.edit {
+            background-position: -96px -72px;
+        }
+        .halflings-icon.share {
+            background-position: -120px -72px;
+        }
+        .halflings-icon.check {
+            background-position: -144px -72px;
+        }
+        .halflings-icon.move {
+            background-position: -168px -72px;
+        }
+        .halflings-icon.step-backward {
+            background-position: -192px -72px;
+        }
+        .halflings-icon.fast-backward {
+            background-position: -216px -72px;
+        }
+        .halflings-icon.backward {
+            background-position: -240px -72px;
+        }
+        .halflings-icon.play {
+            background-position: -264px -72px;
+        }
+        .halflings-icon.pause {
+            background-position: -288px -72px;
+        }
+        .halflings-icon.stop {
+            background-position: -312px -72px;
+        }
+        .halflings-icon.forward {
+            background-position: -336px -72px;
+        }
+        .halflings-icon.fast-forward {
+            background-position: -360px -72px;
+        }
+        .halflings-icon.step-forward {
+            background-position: -384px -72px;
+        }
+        .halflings-icon.eject {
+            background-position: -408px -72px;
+        }
+        .halflings-icon.chevron-left {
+            background-position: -432px -72px;
+        }
+        .halflings-icon.chevron-right {
+            background-position: -456px -72px;
+        }
+        .halflings-icon.plus-sign {
+            background-position: 0 -96px;
+        }
+        .halflings-icon.minus-sign {
+            background-position: -24px -96px;
+        }
+        .halflings-icon.remove-sign {
+            background-position: -48px -96px;
+        }
+        .halflings-icon.ok-sign {
+            background-position: -72px -96px;
+        }
+        .halflings-icon.question-sign {
+            background-position: -96px -96px;
+        }
+        .halflings-icon.info-sign {
+            background-position: -120px -96px;
+        }
+        .halflings-icon.screenshot {
+            background-position: -144px -96px;
+        }
+        .halflings-icon.remove-circle {
+            background-position: -168px -96px;
+        }
+        .halflings-icon.ok-circle {
+            background-position: -192px -96px;
+        }
+        .halflings-icon.ban-circle {
+            background-position: -216px -96px;
+        }
+        .halflings-icon.arrow-left {
+            background-position: -240px -96px;
+        }
+        .halflings-icon.arrow-right {
+            background-position: -264px -96px;
+        }
+        .halflings-icon.arrow-up {
+            background-position: -289px -96px;
+        }
+        .halflings-icon.arrow-down {
+            background-position: -312px -96px;
+        }
+        .halflings-icon.share-alt {
+            background-position: -336px -96px;
+        }
+        .halflings-icon.resize-full {
+            background-position: -360px -96px;
+        }
+        .halflings-icon.resize-small {
+            background-position: -384px -96px;
+        }
+        .halflings-icon.plus {
+            background-position: -408px -96px;
+        }
+        .halflings-icon.minus {
+            background-position: -433px -96px;
+        }
+        .halflings-icon.asterisk {
+            background-position: -456px -96px;
+        }
+        .halflings-icon.exclamation-sign {
+            background-position: 0 -120px;
+        }
+        .halflings-icon.gift {
+            background-position: -24px -120px;
+        }
+        .halflings-icon.leaf {
+            background-position: -48px -120px;
+        }
+        .halflings-icon.fire {
+            background-position: -72px -120px;
+        }
+        .halflings-icon.eye-open {
+            background-position: -96px -120px;
+        }
+        .halflings-icon.eye-close {
+            background-position: -120px -120px;
+        }
+        .halflings-icon.warning-sign {
+            background-position: -144px -120px;
+        }
+        .halflings-icon.plane {
+            background-position: -168px -120px;
+        }
+        .halflings-icon.calendar {
+            background-position: -192px -120px;
+        }
+        .halflings-icon.random {
+            background-position: -216px -120px;
+        }
+        .halflings-icon.comments {
+            background-position: -240px -120px;
+        }
+        .halflings-icon.magnet {
+            background-position: -264px -120px;
+        }
+        .halflings-icon.chevron-up {
+            background-position: -288px -120px;
+        }
+        .halflings-icon.chevron-down {
+            background-position: -313px -119px;
+        }
+        .halflings-icon.retweet {
+            background-position: -336px -120px;
+        }
+        .halflings-icon.shopping-cart {
+            background-position: -360px -120px;
+        }
+        .halflings-icon.folder-close {
+            background-position: -384px -120px;
+        }
+        .halflings-icon.folder-open {
+            background-position: -408px -120px;
+        }
+        .halflings-icon.resize-vertical {
+            background-position: -432px -119px;
+        }
+        .halflings-icon.resize-horizontal {
+            background-position: -456px -118px;
+        }
+        .halflings-icon.hdd {
+            background-position: 0px -144px;
+        }
+        .halflings-icon.bullhorn {
+            background-position: -24px -144px;
+        }
+        .halflings-icon.bell {
+            background-position: -48px -144px;
+        }
+        .halflings-icon.certificate {
+            background-position: -72px -144px;
+        }
+        .halflings-icon.thumbs-up {
+            background-position: -96px -144px;
+        }
+        .halflings-icon.thumbs-down {
+            background-position: -120px -144px;
+        }
+        .halflings-icon.hand-right {
+            background-position: -144px -144px;
+        }
+        .halflings-icon.hand-left {
+            background-position: -168px -144px;
+        }
+        .halflings-icon.hand-top {
+            background-position: -192px -144px;
+        }
+        .halflings-icon.hand-down {
+            background-position: -216px -144px;
+        }
+        .halflings-icon.circle-arrow-right {
+            background-position: -240px -144px;
+        }
+        .halflings-icon.circle-arrow-left {
+            background-position: -264px -144px;
+        }
+        .halflings-icon.circle-arrow-top {
+            background-position: -288px -144px;
+        }
+        .halflings-icon.circle-arrow-down {
+            background-position: -313px -144px;
+        }
+        .halflings-icon.globe {
+            background-position: -336px -144px;
+        }
+        .halflings-icon.wrench {
+            background-position: -360px -144px;
+        }
+        .halflings-icon.tasks {
+            background-position: -384px -144px;
+        }
+        .halflings-icon.filter {
+            background-position: -408px -144px;
+        }
+        .halflings-icon.briefcase {
+            background-position: -432px -144px;
+        }
+        .halflings-icon.fullscreen {
+            background-position: -456px -144px;
+        }
+        .halflings-icon.dashboard {
+            background-position: 0px -168px;
+        }
+        .halflings-icon.paperclip {
+            background-position: -24px -168px;
+        }
+        .halflings-icon.heart-empty {
+            background-position: -48px -168px;
+        }
+        .halflings-icon.link {
+            background-position: -72px -168px;
+        }
+        .halflings-icon.phone {
+            background-position: -96px -168px;
+        }
+        .halflings-icon.pushpin {
+            background-position: -120px -168px;
+        }
+        .halflings-icon.euro {
+            background-position: -144px -168px;
+        }
+        .halflings-icon.usd {
+            background-position: -168px -168px;
+        }
+        .halflings-icon.gbp {
+            background-position: -192px -168px;
+        }
+        .halflings-icon.sort {
+            background-position: -216px -168px;
+        }
+        .halflings-icon.sort-by-alphabet {
+            background-position: -240px -168px;
+        }
+        .halflings-icon.sort-by-alphabet-alt {
+            background-position: -264px -168px;
+        }
+        .halflings-icon.sort-by-order {
+            background-position: -288px -168px;
+        }
+        .halflings-icon.sort-by-order-alt {
+            background-position: -313px -168px;
+        }
+        .halflings-icon.sort-by-attributes {
+            background-position: -336px -168px;
+        }
+        .halflings-icon.sort-by-attributes-alt {
+            background-position: -360px -168px;
+        }
+        .halflings-icon.unchecked {
+            background-position: -384px -168px;
+        }
+        .halflings-icon.expand {
+            background-position: -408px -168px;
+        }
+        .halflings-icon.collapse {
+            background-position: -432px -168px;
+        }
+        .halflings-icon.collapse-top {
+            background-position: -456px -168px;
+        }
+    </style>
+
+    <script src="scripts/modernizr.js"></script>
+
+</head>
+<body>
+
+<h2>Fonts</h2>
+<a href="" class="halflings glass"><i></i>glass</a>
+<a href="" class="halflings music"><i></i>music</a>
+<a href="" class="halflings search"><i></i>search</a>
+<a href="" class="halflings envelope"><i></i>envelope</a>
+<a href="" class="halflings heart"><i></i>heart</a>
+<a href="" class="halflings star"><i></i>star</a>
+<a href="" class="halflings star-empty"><i></i>star-empty</a>
+<a href="" class="halflings user"><i></i>user</a>
+<a href="" class="halflings film"><i></i>film</a>
+<a href="" class="halflings th-large"><i></i>th-large</a>
+<a href="" class="halflings th"><i></i>th</a>
+<a href="" class="halflings th-list"><i></i>th-list</a>
+<a href="" class="halflings ok"><i></i>ok</a>
+<a href="" class="halflings remove"><i></i>remove</a>
+<a href="" class="halflings zoom-in"><i></i>zoom-in</a>
+<a href="" class="halflings zoom-out"><i></i>zoom-out</a>
+<a href="" class="halflings off"><i></i>off</a>
+<a href="" class="halflings signal"><i></i>signal</a>
+<a href="" class="halflings cog"><i></i>cog</a>
+<a href="" class="halflings trash"><i></i>trash</a>
+<a href="" class="halflings home"><i></i>home</a>
+<a href="" class="halflings file"><i></i>file</a>
+<a href="" class="halflings time"><i></i>time</a>
+<a href="" class="halflings road"><i></i>road</a>
+<a href="" class="halflings download-alt"><i></i>download-alt</a>
+<a href="" class="halflings download"><i></i>download</a>
+<a href="" class="halflings upload"><i></i>upload</a>
+<a href="" class="halflings inbox"><i></i>inbox</a>
+<a href="" class="halflings play-circle"><i></i>play-circle</a>
+<a href="" class="halflings repeat"><i></i>repeat</a>
+<a href="" class="halflings refresh"><i></i>refresh</a>
+<a href="" class="halflings list-alt"><i></i>list-alt</a>
+<a href="" class="halflings lock"><i></i>lock</a>
+<a href="" class="halflings flag"><i></i>flag</a>
+<a href="" class="halflings headphones"><i></i>headphones</a>
+<a href="" class="halflings volume-off"><i></i>volume-off</a>
+<a href="" class="halflings volume-down"><i></i>volume-down</a>
+<a href="" class="halflings volume-up"><i></i>volume-up</a>
+<a href="" class="halflings qrcode"><i></i>qrcode</a>
+<a href="" class="halflings barcode"><i></i>barcode</a>
+<a href="" class="halflings tag"><i></i>tag</a>
+<a href="" class="halflings tags"><i></i>tags</a>
+<a href="" class="halflings book"><i></i>book</a>
+<a href="" class="halflings bookmark"><i></i>bookmark</a>
+<a href="" class="halflings print"><i></i>print</a>
+<a href="" class="halflings camera"><i></i>camera</a>
+<a href="" class="halflings font"><i></i>font</a>
+<a href="" class="halflings bold"><i></i>bold</a>
+<a href="" class="halflings italic"><i></i>italic</a>
+<a href="" class="halflings text-height"><i></i>text-height</a>
+<a href="" class="halflings text-width"><i></i>text-width</a>
+<a href="" class="halflings align-left"><i></i>align-left</a>
+<a href="" class="halflings align-center"><i></i>align-center</a>
+<a href="" class="halflings align-right"><i></i>align-right</a>
+<a href="" class="halflings align-justify"><i></i>align-justify</a>
+<a href="" class="halflings list"><i></i>list</a>
+<a href="" class="halflings indent-left"><i></i>indent-left</a>
+<a href="" class="halflings indent-right"><i></i>indent-right</a>
+<a href="" class="halflings facetime-video"><i></i>facetime-video</a>
+<a href="" class="halflings picture"><i></i>picture</a>
+<a href="" class="halflings pencil"><i></i>pencil</a>
+<a href="" class="halflings map-marker"><i></i>map-marker</a>
+<a href="" class="halflings adjust"><i></i>adjust</a>
+<a href="" class="halflings tint"><i></i>tint</a>
+<a href="" class="halflings edit"><i></i>edit</a>
+<a href="" class="halflings share"><i></i>share</a>
+<a href="" class="halflings check"><i></i>check</a>
+<a href="" class="halflings move"><i></i>move</a>
+<a href="" class="halflings step-backward"><i></i>step-backward</a>
+<a href="" class="halflings fast-backward"><i></i>fast-backward</a>
+<a href="" class="halflings backward"><i></i>backward</a>
+<a href="" class="halflings play"><i></i>play</a>
+<a href="" class="halflings pause"><i></i>pause</a>
+<a href="" class="halflings stop"><i></i>stop</a>
+<a href="" class="halflings forward"><i></i>forward</a>
+<a href="" class="halflings fast-forward"><i></i>fast-forward</a>
+<a href="" class="halflings step-forward"><i></i>step-forward</a>
+<a href="" class="halflings eject"><i></i>eject</a>
+<a href="" class="halflings chevron-left"><i></i>chevron-left</a>
+<a href="" class="halflings chevron-right"><i></i>chevron-right</a>
+<a href="" class="halflings plus-sign"><i></i>plus-sign</a>
+<a href="" class="halflings minus-sign"><i></i>minus-sign</a>
+<a href="" class="halflings remove-sign"><i></i>remove-sign</a>
+<a href="" class="halflings ok-sign"><i></i>ok-sign</a>
+<a href="" class="halflings question-sign"><i></i>question-sign</a>
+<a href="" class="halflings info-sign"><i></i>info-sign</a>
+<a href="" class="halflings screenshot"><i></i>screenshot</a>
+<a href="" class="halflings remove-circle"><i></i>remove-circle</a>
+<a href="" class="halflings ok-circle"><i></i>ok-circle</a>
+<a href="" class="halflings ban-circle"><i></i>ban-circle</a>
+<a href="" class="halflings arrow-left"><i></i>arrow-left</a>
+<a href="" class="halflings arrow-right"><i></i>arrow-right</a>
+<a href="" class="halflings arrow-up"><i></i>arrow-up</a>
+<a href="" class="halflings arrow-down"><i></i>arrow-down</a>
+<a href="" class="halflings share-alt"><i></i>share-alt</a>
+<a href="" class="halflings resize-full"><i></i>resize-full</a>
+<a href="" class="halflings resize-small"><i></i>resize-small</a>
+<a href="" class="halflings plus"><i></i>plus</a>
+<a href="" class="halflings minus"><i></i>minus</a>
+<a href="" class="halflings asterisk"><i></i>asterisk</a>
+<a href="" class="halflings exclamation-sign"><i></i>exclamation-sign</a>
+<a href="" class="halflings gift"><i></i>gift</a>
+<a href="" class="halflings leaf"><i></i>leaf</a>
+<a href="" class="halflings fire"><i></i>fire</a>
+<a href="" class="halflings eye-open"><i></i>eye-open</a>
+<a href="" class="halflings eye-close"><i></i>eye-close</a>
+<a href="" class="halflings warning-sign"><i></i>warning-sign</a>
+<a href="" class="halflings plane"><i></i>plane</a>
+<a href="" class="halflings calendar"><i></i>calendar</a>
+<a href="" class="halflings random"><i></i>random</a>
+<a href="" class="halflings comments"><i></i>comments</a>
+<a href="" class="halflings magnet"><i></i>magnet</a>
+<a href="" class="halflings chevron-up"><i></i>chevron-up</a>
+<a href="" class="halflings chevron-down"><i></i>chevron-down</a>
+<a href="" class="halflings retweet"><i></i>retweet</a>
+<a href="" class="halflings shopping-cart"><i></i>shopping-cart</a>
+<a href="" class="halflings folder-close"><i></i>folder-close</a>
+<a href="" class="halflings folder-open"><i></i>folder-open</a>
+<a href="" class="halflings resize-vertical"><i></i>resize-vertical</a>
+<a href="" class="halflings resize-horizontal"><i></i>resize-horizontal</a>
+<a href="" class="halflings hdd"><i></i>hdd</a>
+<a href="" class="halflings bullhorn"><i></i>bullhorn</a>
+<a href="" class="halflings bell"><i></i>bell</a>
+<a href="" class="halflings certificate"><i></i>certificate</a>
+<a href="" class="halflings thumbs-up"><i></i>thumbs-up</a>
+<a href="" class="halflings thumbs-down"><i></i>thumbs-down</a>
+<a href="" class="halflings hand-right"><i></i>hand-right</a>
+<a href="" class="halflings hand-left"><i></i>hand-left</a>
+<a href="" class="halflings hand-top"><i></i>hand-top</a>
+<a href="" class="halflings hand-down"><i></i>hand-down</a>
+<a href="" class="halflings circle-arrow-right"><i></i>circle-arrow-right</a>
+<a href="" class="halflings circle-arrow-left"><i></i>circle-arrow-left</a>
+<a href="" class="halflings circle-arrow-top"><i></i>circle-arrow-top</a>
+<a href="" class="halflings circle-arrow-down"><i></i>circle-arrow-down</a>
+<a href="" class="halflings globe"><i></i>globe</a>
+<a href="" class="halflings wrench"><i></i>wrench</a>
+<a href="" class="halflings tasks"><i></i>tasks</a>
+<a href="" class="halflings filter"><i></i>filter</a>
+<a href="" class="halflings briefcase"><i></i>briefcase</a>
+<a href="" class="halflings fullscreen"><i></i>fullscreen</a>
+<a href="" class="halflings dashboard"><i></i>dashboard</a>
+<a href="" class="halflings paperclip"><i></i>paperclip</a>
+<a href="" class="halflings heart-empty"><i></i>heart-empty</a>
+<a href="" class="halflings link"><i></i>link</a>
+<a href="" class="halflings phone"><i></i>phone</a>
+<a href="" class="halflings pushpin"><i></i>pushpin</a>
+<a href="" class="halflings euro"><i></i>euro</a>
+<a href="" class="halflings usd"><i></i>usd</a>
+<a href="" class="halflings gbp"><i></i>gbp</a>
+<a href="" class="halflings sort"><i></i>sort</a>
+<a href="" class="halflings sort-by-alphabet"><i></i>sort-by-alphabet</a>
+<a href="" class="halflings sort-by-alphabet-alt"><i></i>sort-by-alphabet-alt</a>
+<a href="" class="halflings sort-by-order"><i></i>sort-by-order</a>
+<a href="" class="halflings sort-by-order-alt"><i></i>sort-by-order-alt</a>
+<a href="" class="halflings sort-by-attributes"><i></i>sort-by-attributes</a>
+<a href="" class="halflings sort-by-attributes-alt"><i></i>sort-by-attributes-alt</a>
+<a href="" class="halflings unchecked"><i></i>unchecked</a>
+<a href="" class="halflings expand"><i></i>expand</a>
+<a href="" class="halflings collapse"><i></i>collapse</a>
+<a href="" class="halflings collapse-top"><i></i>collapse-top</a>
+
+<br><br><br>
+
+<div class="white-content">
+    <h2>Fonts - white</h2>
+    <a href="" class="halflings white glass"><i></i>glass</a>
+    <a href="" class="halflings white music"><i></i>music</a>
+    <a href="" class="halflings white search"><i></i>search</a>
+    <a href="" class="halflings white envelope"><i></i>envelope</a>
+    <a href="" class="halflings white heart"><i></i>heart</a>
+    <a href="" class="halflings white star"><i></i>star</a>
+    <a href="" class="halflings white star-empty"><i></i>star-empty</a>
+    <a href="" class="halflings white user"><i></i>user</a>
+    <a href="" class="halflings white film"><i></i>film</a>
+    <a href="" class="halflings white th-large"><i></i>th-large</a>
+    <a href="" class="halflings white th"><i></i>th</a>
+    <a href="" class="halflings white th-list"><i></i>th-list</a>
+    <a href="" class="halflings white ok"><i></i>ok</a>
+    <a href="" class="halflings white remove"><i></i>remove</a>
+    <a href="" class="halflings white zoom-in"><i></i>zoom-in</a>
+    <a href="" class="halflings white zoom-out"><i></i>zoom-out</a>
+    <a href="" class="halflings white off"><i></i>off</a>
+    <a href="" class="halflings white signal"><i></i>signal</a>
+    <a href="" class="halflings white cog"><i></i>cog</a>
+    <a href="" class="halflings white trash"><i></i>trash</a>
+    <a href="" class="halflings white home"><i></i>home</a>
+    <a href="" class="halflings white file"><i></i>file</a>
+    <a href="" class="halflings white time"><i></i>time</a>
+    <a href="" class="halflings white road"><i></i>road</a>
+    <a href="" class="halflings white download-alt"><i></i>download-alt</a>
+    <a href="" class="halflings white download"><i></i>download</a>
+    <a href="" class="halflings white upload"><i></i>upload</a>
+    <a href="" class="halflings white inbox"><i></i>inbox</a>
+    <a href="" class="halflings white play-circle"><i></i>play-circle</a>
+    <a href="" class="halflings white repeat"><i></i>repeat</a>
+    <a href="" class="halflings white refresh"><i></i>refresh</a>
+    <a href="" class="halflings white list-alt"><i></i>list-alt</a>
+    <a href="" class="halflings white lock"><i></i>lock</a>
+    <a href="" class="halflings white flag"><i></i>flag</a>
+    <a href="" class="halflings white headphones"><i></i>headphones</a>
+    <a href="" class="halflings white volume-off"><i></i>volume-off</a>
+    <a href="" class="halflings white volume-down"><i></i>volume-down</a>
+    <a href="" class="halflings white volume-up"><i></i>volume-up</a>
+    <a href="" class="halflings white qrcode"><i></i>qrcode</a>
+    <a href="" class="halflings white barcode"><i></i>barcode</a>
+    <a href="" class="halflings white tag"><i></i>tag</a>
+    <a href="" class="halflings white tags"><i></i>tags</a>
+    <a href="" class="halflings white book"><i></i>book</a>
+    <a href="" class="halflings white bookmark"><i></i>bookmark</a>
+    <a href="" class="halflings white print"><i></i>print</a>
+    <a href="" class="halflings white camera"><i></i>camera</a>
+    <a href="" class="halflings white font"><i></i>font</a>
+    <a href="" class="halflings white bold"><i></i>bold</a>
+    <a href="" class="halflings white italic"><i></i>italic</a>
+    <a href="" class="halflings white text-height"><i></i>text-height</a>
+    <a href="" class="halflings white text-width"><i></i>text-width</a>
+    <a href="" class="halflings white align-left"><i></i>align-left</a>
+    <a href="" class="halflings white align-center"><i></i>align-center</a>
+    <a href="" class="halflings white align-right"><i></i>align-right</a>
+    <a href="" class="halflings white align-justify"><i></i>align-justify</a>
+    <a href="" class="halflings white list"><i></i>list</a>
+    <a href="" class="halflings white indent-left"><i></i>indent-left</a>
+    <a href="" class="halflings white indent-right"><i></i>indent-right</a>
+    <a href="" class="halflings white facetime-video"><i></i>facetime-video</a>
+    <a href="" class="halflings white picture"><i></i>picture</a>
+    <a href="" class="halflings white pencil"><i></i>pencil</a>
+    <a href="" class="halflings white map-marker"><i></i>map-marker</a>
+    <a href="" class="halflings white adjust"><i></i>adjust</a>
+    <a href="" class="halflings white tint"><i></i>tint</a>
+    <a href="" class="halflings white edit"><i></i>edit</a>
+    <a href="" class="halflings white share"><i></i>share</a>
+    <a href="" class="halflings white check"><i></i>check</a>
+    <a href="" class="halflings white move"><i></i>move</a>
+    <a href="" class="halflings white step-backward"><i></i>step-backward</a>
+    <a href="" class="halflings white fast-backward"><i></i>fast-backward</a>
+    <a href="" class="halflings white backward"><i></i>backward</a>
+    <a href="" class="halflings white play"><i></i>play</a>
+    <a href="" class="halflings white pause"><i></i>pause</a>
+    <a href="" class="halflings white stop"><i></i>stop</a>
+    <a href="" class="halflings white forward"><i></i>forward</a>
+    <a href="" class="halflings white fast-forward"><i></i>fast-forward</a>
+    <a href="" class="halflings white step-forward"><i></i>step-forward</a>
+    <a href="" class="halflings white eject"><i></i>eject</a>
+    <a href="" class="halflings white chevron-left"><i></i>chevron-left</a>
+    <a href="" class="halflings white chevron-right"><i></i>chevron-right</a>
+    <a href="" class="halflings white plus-sign"><i></i>plus-sign</a>
+    <a href="" class="halflings white minus-sign"><i></i>minus-sign</a>
+    <a href="" class="halflings white remove-sign"><i></i>remove-sign</a>
+    <a href="" class="halflings white ok-sign"><i></i>ok-sign</a>
+    <a href="" class="halflings white question-sign"><i></i>question-sign</a>
+    <a href="" class="halflings white info-sign"><i></i>info-sign</a>
+    <a href="" class="halflings white screenshot"><i></i>screenshot</a>
+    <a href="" class="halflings white remove-circle"><i></i>remove-circle</a>
+    <a href="" class="halflings white ok-circle"><i></i>ok-circle</a>
+    <a href="" class="halflings white ban-circle"><i></i>ban-circle</a>
+    <a href="" class="halflings white arrow-left"><i></i>arrow-left</a>
+    <a href="" class="halflings white arrow-right"><i></i>arrow-right</a>
+    <a href="" class="halflings white arrow-up"><i></i>arrow-up</a>
+    <a href="" class="halflings white arrow-down"><i></i>arrow-down</a>
+    <a href="" class="halflings white share-alt"><i></i>share-alt</a>
+    <a href="" class="halflings white resize-full"><i></i>resize-full</a>
+    <a href="" class="halflings white resize-small"><i></i>resize-small</a>
+    <a href="" class="halflings white plus"><i></i>plus</a>
+    <a href="" class="halflings white minus"><i></i>minus</a>
+    <a href="" class="halflings white asterisk"><i></i>asterisk</a>
+    <a href="" class="halflings white exclamation-sign"><i></i>exclamation-sign</a>
+    <a href="" class="halflings white gift"><i></i>gift</a>
+    <a href="" class="halflings white leaf"><i></i>leaf</a>
+    <a href="" class="halflings white fire"><i></i>fire</a>
+    <a href="" class="halflings white eye-open"><i></i>eye-open</a>
+    <a href="" class="halflings white eye-close"><i></i>eye-close</a>
+    <a href="" class="halflings white warning-sign"><i></i>warning-sign</a>
+    <a href="" class="halflings white plane"><i></i>plane</a>
+    <a href="" class="halflings white calendar"><i></i>calendar</a>
+    <a href="" class="halflings white random"><i></i>random</a>
+    <a href="" class="halflings white comments"><i></i>comments</a>
+    <a href="" class="halflings white magnet"><i></i>magnet</a>
+    <a href="" class="halflings white chevron-up"><i></i>chevron-up</a>
+    <a href="" class="halflings white chevron-down"><i></i>chevron-down</a>
+    <a href="" class="halflings white retweet"><i></i>retweet</a>
+    <a href="" class="halflings white shopping-cart"><i></i>shopping-cart</a>
+    <a href="" class="halflings white folder-close"><i></i>folder-close</a>
+    <a href="" class="halflings white folder-open"><i></i>folder-open</a>
+    <a href="" class="halflings white resize-vertical"><i></i>resize-vertical</a>
+    <a href="" class="halflings white resize-horizontal"><i></i>resize-horizontal</a>
+    <a href="" class="halflings white hdd"><i></i>hdd</a>
+    <a href="" class="halflings white bullhorn"><i></i>bullhorn</a>
+    <a href="" class="halflings white bell"><i></i>bell</a>
+    <a href="" class="halflings white certificate"><i></i>certificate</a>
+    <a href="" class="halflings white thumbs-up"><i></i>thumbs-up</a>
+    <a href="" class="halflings white thumbs-down"><i></i>thumbs-down</a>
+    <a href="" class="halflings white hand-right"><i></i>hand-right</a>
+    <a href="" class="halflings white hand-left"><i></i>hand-left</a>
+    <a href="" class="halflings white hand-top"><i></i>hand-top</a>
+    <a href="" class="halflings white hand-down"><i></i>hand-down</a>
+    <a href="" class="halflings white circle-arrow-right"><i></i>circle-arrow-right</a>
+    <a href="" class="halflings white circle-arrow-left"><i></i>circle-arrow-left</a>
+    <a href="" class="halflings white circle-arrow-top"><i></i>circle-arrow-top</a>
+    <a href="" class="halflings white circle-arrow-down"><i></i>circle-arrow-down</a>
+    <a href="" class="halflings white globe"><i></i>globe</a>
+    <a href="" class="halflings white wrench"><i></i>wrench</a>
+    <a href="" class="halflings white tasks"><i></i>tasks</a>
+    <a href="" class="halflings white filter"><i></i>filter</a>
+    <a href="" class="halflings white briefcase"><i></i>briefcase</a>
+    <a href="" class="halflings white fullscreen"><i></i>fullscreen</a>
+    <a href="" class="halflings white dashboard"><i></i>dashboard</a>
+    <a href="" class="halflings white paperclip"><i></i>paperclip</a>
+    <a href="" class="halflings white heart-empty"><i></i>heart-empty</a>
+    <a href="" class="halflings white link"><i></i>link</a>
+    <a href="" class="halflings white phone"><i></i>phone</a>
+    <a href="" class="halflings white pushpin"><i></i>pushpin</a>
+    <a href="" class="halflings white euro"><i></i>euro</a>
+    <a href="" class="halflings white usd"><i></i>usd</a>
+    <a href="" class="halflings white gbp"><i></i>gbp</a>
+    <a href="" class="halflings white sort"><i></i>sort</a>
+    <a href="" class="halflings white sort-by-alphabet"><i></i>sort-by-alphabet</a>
+    <a href="" class="halflings white sort-by-alphabet-alt"><i></i>sort-by-alphabet-alt</a>
+    <a href="" class="halflings white sort-by-order"><i></i>sort-by-order</a>
+    <a href="" class="halflings white sort-by-order-alt"><i></i>sort-by-order-alt</a>
+    <a href="" class="halflings white sort-by-attributes"><i></i>sort-by-attributes</a>
+    <a href="" class="halflings white sort-by-attributes-alt"><i></i>sort-by-attributes-alt</a>
+    <a href="" class="halflings white unchecked"><i></i>unchecked</a>
+    <a href="" class="halflings white expand"><i></i>expand</a>
+    <a href="" class="halflings white collapse"><i></i>collapse</a>
+    <a href="" class="halflings white collapse-top"><i></i>collapse-top</a>
+</div>
+
+<br><br><br>
+
+<h2>Image</h2>
+<p><i class="halflings-icon glass"></i>glass</p>
+<p><i class="halflings-icon music"></i>music</p>
+<p><i class="halflings-icon search"></i>search</p>
+<p><i class="halflings-icon envelope"></i>envelope</p>
+<p><i class="halflings-icon heart"></i>heart</p>
+<p><i class="halflings-icon star"></i>star</p>
+<p><i class="halflings-icon star-empty"></i>star-empty</p>
+<p><i class="halflings-icon user"></i>user</p>
+<p><i class="halflings-icon film"></i>film</p>
+<p><i class="halflings-icon th-large"></i>th-large</p>
+<p><i class="halflings-icon th"></i>th</p>
+<p><i class="halflings-icon th-list"></i>th-list</p>
+<p><i class="halflings-icon ok"></i>ok</p>
+<p><i class="halflings-icon remove"></i>remove</p>
+<p><i class="halflings-icon zoom-in"></i>zoom-in</p>
+<p><i class="halflings-icon zoom-out"></i>zoom-out</p>
+<p><i class="halflings-icon off"></i>off</p>
+<p><i class="halflings-icon signal"></i>signal</p>
+<p><i class="halflings-icon cog"></i>cog</p>
+<p><i class="halflings-icon trash"></i>trash</p>
+<p><i class="halflings-icon home"></i>home</p>
+<p><i class="halflings-icon file"></i>file</p>
+<p><i class="halflings-icon time"></i>time</p>
+<p><i class="halflings-icon road"></i>road</p>
+<p><i class="halflings-icon download-alt"></i>download-alt</p>
+<p><i class="halflings-icon download"></i>download</p>
+<p><i class="halflings-icon upload"></i>upload</p>
+<p><i class="halflings-icon inbox"></i>inbox</p>
+<p><i class="halflings-icon play-circle"></i>play-circle</p>
+<p><i class="halflings-icon repeat"></i>repeat</p>
+<p><i class="halflings-icon refresh"></i>refresh</p>
+<p><i class="halflings-icon list-alt"></i>list-alt</p>
+<p><i class="halflings-icon lock"></i>lock</p>
+<p><i class="halflings-icon flag"></i>flag</p>
+<p><i class="halflings-icon headphones"></i>headphones</p>
+<p><i class="halflings-icon volume-off"></i>volume-off</p>
+<p><i class="halflings-icon volume-down"></i>volume-down</p>
+<p><i class="halflings-icon volume-up"></i>volume-up</p>
+<p><i class="halflings-icon qrcode"></i>qrcode</p>
+<p><i class="halflings-icon barcode"></i>barcode</p>
+<p><i class="halflings-icon tag"></i>tag</p>
+<p><i class="halflings-icon tags"></i>tags</p>
+<p><i class="halflings-icon book"></i>book</p>
+<p><i class="halflings-icon bookmark"></i>bookmark</p>
+<p><i class="halflings-icon print"></i>print</p>
+<p><i class="halflings-icon camera"></i>camera</p>
+<p><i class="halflings-icon font"></i>font</p>
+<p><i class="halflings-icon bold"></i>bold</p>
+<p><i class="halflings-icon italic"></i>italic</p>
+<p><i class="halflings-icon text-height"></i>text-height</p>
+<p><i class="halflings-icon text-width"></i>text-width</p>
+<p><i class="halflings-icon align-left"></i>align-left</p>
+<p><i class="halflings-icon align-center"></i>align-center</p>
+<p><i class="halflings-icon align-right"></i>align-right</p>
+<p><i class="halflings-icon align-justify"></i>align-justify</p>
+<p><i class="halflings-icon list"></i>list</p>
+<p><i class="halflings-icon indent-left"></i>indent-left</p>
+<p><i class="halflings-icon indent-right"></i>indent-right</p>
+<p><i class="halflings-icon facetime-video"></i>facetime-video</p>
+<p><i class="halflings-icon picture"></i>picture</p>
+<p><i class="halflings-icon pencil"></i>pencil</p>
+<p><i class="halflings-icon map-marker"></i>map-marker</p>
+<p><i class="halflings-icon adjust"></i>adjust</p>
+<p><i class="halflings-icon tint"></i>tint</p>
+<p><i class="halflings-icon edit"></i>edit</p>
+<p><i class="halflings-icon share"></i>share</p>
+<p><i class="halflings-icon check"></i>check</p>
+<p><i class="halflings-icon move"></i>move</p>
+<p><i class="halflings-icon step-backward"></i>step-backward</p>
+<p><i class="halflings-icon fast-backward"></i>fast-backward</p>
+<p><i class="halflings-icon backward"></i>backward</p>
+<p><i class="halflings-icon play"></i>play</p>
+<p><i class="halflings-icon pause"></i>pause</p>
+<p><i class="halflings-icon stop"></i>stop</p>
+<p><i class="halflings-icon forward"></i>forward</p>
+<p><i class="halflings-icon fast-forward"></i>fast-forward</p>
+<p><i class="halflings-icon step-forward"></i>step-forward</p>
+<p><i class="halflings-icon eject"></i>eject</p>
+<p><i class="halflings-icon chevron-left"></i>chevron-left</p>
+<p><i class="halflings-icon chevron-right"></i>chevron-right</p>
+<p><i class="halflings-icon plus-sign"></i>plus-sign</p>
+<p><i class="halflings-icon minus-sign"></i>minus-sign</p>
+<p><i class="halflings-icon remove-sign"></i>remove-sign</p>
+<p><i class="halflings-icon ok-sign"></i>ok-sign</p>
+<p><i class="halflings-icon question-sign"></i>question-sign</p>
+<p><i class="halflings-icon info-sign"></i>info-sign</p>
+<p><i class="halflings-icon screenshot"></i>screenshot</p>
+<p><i class="halflings-icon remove-circle"></i>remove-circle</p>
+<p><i class="halflings-icon ok-circle"></i>ok-circle</p>
+<p><i class="halflings-icon ban-circle"></i>ban-circle</p>
+<p><i class="halflings-icon arrow-left"></i>arrow-left</p>
+<p><i class="halflings-icon arrow-right"></i>arrow-right</p>
+<p><i class="halflings-icon arrow-up"></i>arrow-up</p>
+<p><i class="halflings-icon arrow-down"></i>arrow-down</p>
+<p><i class="halflings-icon share-alt"></i>share-alt</p>
+<p><i class="halflings-icon resize-full"></i>resize-full</p>
+<p><i class="halflings-icon resize-small"></i>resize-small</p>
+<p><i class="halflings-icon plus"></i>plus</p>
+<p><i class="halflings-icon minus"></i>minus</p>
+<p><i class="halflings-icon asterisk"></i>asterisk</p>
+<p><i class="halflings-icon exclamation-sign"></i>exclamation-sign</p>
+<p><i class="halflings-icon gift"></i>gift</p>
+<p><i class="halflings-icon leaf"></i>leaf</p>
+<p><i class="halflings-icon fire"></i>fire</p>
+<p><i class="halflings-icon eye-open"></i>eye-open</p>
+<p><i class="halflings-icon eye-close"></i>eye-close</p>
+<p><i class="halflings-icon warning-sign"></i>warning-sign</p>
+<p><i class="halflings-icon plane"></i>plane</p>
+<p><i class="halflings-icon calendar"></i>calendar</p>
+<p><i class="halflings-icon random"></i>random</p>
+<p><i class="halflings-icon comments"></i>comments</p>
+<p><i class="halflings-icon magnet"></i>magnet</p>
+<p><i class="halflings-icon chevron-up"></i>chevron-up</p>
+<p><i class="halflings-icon chevron-down"></i>chevron-down</p>
+<p><i class="halflings-icon retweet"></i>retweet</p>
+<p><i class="halflings-icon shopping-cart"></i>shopping-cart</p>
+<p><i class="halflings-icon folder-close"></i>folder-close</p>
+<p><i class="halflings-icon folder-open"></i>folder-open</p>
+<p><i class="halflings-icon resize-vertical"></i>resize-vertical</p>
+<p><i class="halflings-icon resize-horizontal"></i>resize-horizontal</p>
+<p><i class="halflings-icon hdd"></i>hdd</p>
+<p><i class="halflings-icon bullhorn"></i>bullhorn</p>
+<p><i class="halflings-icon bell"></i>bell</p>
+<p><i class="halflings-icon certificate"></i>certificate</p>
+<p><i class="halflings-icon thumbs-up"></i>thumbs-up</p>
+<p><i class="halflings-icon thumbs-down"></i>thumbs-down</p>
+<p><i class="halflings-icon hand-right"></i>hand-right</p>
+<p><i class="halflings-icon hand-left"></i>hand-left</p>
+<p><i class="halflings-icon hand-top"></i>hand-top</p>
+<p><i class="halflings-icon hand-down"></i>hand-down</p>
+<p><i class="halflings-icon circle-arrow-right"></i>circle-arrow-right</p>
+<p><i class="halflings-icon circle-arrow-left"></i>circle-arrow-left</p>
+<p><i class="halflings-icon circle-arrow-top"></i>circle-arrow-top</p>
+<p><i class="halflings-icon circle-arrow-down"></i>circle-arrow-down</p>
+<p><i class="halflings-icon globe"></i>globe</p>
+<p><i class="halflings-icon wrench"></i>wrench</p>
+<p><i class="halflings-icon tasks"></i>tasks</p>
+<p><i class="halflings-icon filter"></i>filter</p>
+<p><i class="halflings-icon briefcase"></i>briefcase</p>
+<p><i class="halflings-icon fullscreen"></i>fullscreen</p>
+<p><i class="halflings-icon dashboard"></i>dashboard</p>
+<p><i class="halflings-icon paperclip"></i>paperclip</p>
+<p><i class="halflings-icon heart-empty"></i>heart-empty</p>
+<p><i class="halflings-icon link"></i>link</p>
+<p><i class="halflings-icon phone"></i>phone</p>
+<p><i class="halflings-icon pushpin"></i>pushpin</p>
+<p><i class="halflings-icon euro"></i>euro</p>
+<p><i class="halflings-icon usd"></i>usd</p>
+<p><i class="halflings-icon gbp"></i>gbp</p>
+<p><i class="halflings-icon sort"></i>sort</p>
+<p><i class="halflings-icon sort-by-alphabet"></i>sort-by-alphabet</p>
+<p><i class="halflings-icon sort-by-alphabet-alt"></i>sort-by-alphabet-alt</p>
+<p><i class="halflings-icon sort-by-order"></i>sort-by-order</p>
+<p><i class="halflings-icon sort-by-order-alt"></i>sort-by-order-alt</p>
+<p><i class="halflings-icon sort-by-attributes"></i>sort-by-attributes</p>
+<p><i class="halflings-icon sort-by-attributes-alt"></i>sort-by-attributes-alt</p>
+<p><i class="halflings-icon unchecked"></i>unchecked</p>
+<p><i class="halflings-icon expand"></i>expand</p>
+<p><i class="halflings-icon collapse"></i>collapse</p>
+<p><i class="halflings-icon collapse-top"></i>collapse-top</p>
+
+<br><br><br>
+
+<div class="white-content">
+    <h2>Image - white</h2>
+    <p><i class="halflings-icon white glass"></i>glass</p>
+    <p><i class="halflings-icon white music"></i>music</p>
+    <p><i class="halflings-icon white search"></i>search</p>
+    <p><i class="halflings-icon white envelope"></i>envelope</p>
+    <p><i class="halflings-icon white heart"></i>heart</p>
+    <p><i class="halflings-icon white star"></i>star</p>
+    <p><i class="halflings-icon white star-empty"></i>star-empty</p>
+    <p><i class="halflings-icon white user"></i>user</p>
+    <p><i class="halflings-icon white film"></i>film</p>
+    <p><i class="halflings-icon white th-large"></i>th-large</p>
+    <p><i class="halflings-icon white th"></i>th</p>
+    <p><i class="halflings-icon white th-list"></i>th-list</p>
+    <p><i class="halflings-icon white ok"></i>ok</p>
+    <p><i class="halflings-icon white remove"></i>remove</p>
+    <p><i class="halflings-icon white zoom-in"></i>zoom-in</p>
+    <p><i class="halflings-icon white zoom-out"></i>zoom-out</p>
+    <p><i class="halflings-icon white off"></i>off</p>
+    <p><i class="halflings-icon white signal"></i>signal</p>
+    <p><i class="halflings-icon white cog"></i>cog</p>
+    <p><i class="halflings-icon white trash"></i>trash</p>
+    <p><i class="halflings-icon white home"></i>home</p>
+    <p><i class="halflings-icon white file"></i>file</p>
+    <p><i class="halflings-icon white time"></i>time</p>
+    <p><i class="halflings-icon white road"></i>road</p>
+    <p><i class="halflings-icon white download-alt"></i>download-alt</p>
+    <p><i class="halflings-icon white download"></i>download</p>
+    <p><i class="halflings-icon white upload"></i>upload</p>
+    <p><i class="halflings-icon white inbox"></i>inbox</p>
+    <p><i class="halflings-icon white play-circle"></i>play-circle</p>
+    <p><i class="halflings-icon white repeat"></i>repeat</p>
+    <p><i class="halflings-icon white refresh"></i>refresh</p>
+    <p><i class="halflings-icon white list-alt"></i>list-alt</p>
+    <p><i class="halflings-icon white lock"></i>lock</p>
+    <p><i class="halflings-icon white flag"></i>flag</p>
+    <p><i class="halflings-icon white headphones"></i>headphones</p>
+    <p><i class="halflings-icon white volume-off"></i>volume-off</p>
+    <p><i class="halflings-icon white volume-down"></i>volume-down</p>
+    <p><i class="halflings-icon white volume-up"></i>volume-up</p>
+    <p><i class="halflings-icon white qrcode"></i>qrcode</p>
+    <p><i class="halflings-icon white barcode"></i>barcode</p>
+    <p><i class="halflings-icon white tag"></i>tag</p>
+    <p><i class="halflings-icon white tags"></i>tags</p>
+    <p><i class="halflings-icon white book"></i>book</p>
+    <p><i class="halflings-icon white bookmark"></i>bookmark</p>
+    <p><i class="halflings-icon white print"></i>print</p>
+    <p><i class="halflings-icon white camera"></i>camera</p>
+    <p><i class="halflings-icon white font"></i>font</p>
+    <p><i class="halflings-icon white bold"></i>bold</p>
+    <p><i class="halflings-icon white italic"></i>italic</p>
+    <p><i class="halflings-icon white text-height"></i>text-height</p>
+    <p><i class="halflings-icon white text-width"></i>text-width</p>
+    <p><i class="halflings-icon white align-left"></i>align-left</p>
+    <p><i class="halflings-icon white align-center"></i>align-center</p>
+    <p><i class="halflings-icon white align-right"></i>align-right</p>
+    <p><i class="halflings-icon white align-justify"></i>align-justify</p>
+    <p><i class="halflings-icon white list"></i>list</p>
+    <p><i class="halflings-icon white indent-left"></i>indent-left</p>
+    <p><i class="halflings-icon white indent-right"></i>indent-right</p>
+    <p><i class="halflings-icon white facetime-video"></i>facetime-video</p>
+    <p><i class="halflings-icon white picture"></i>picture</p>
+    <p><i class="halflings-icon white pencil"></i>pencil</p>
+    <p><i class="halflings-icon white map-marker"></i>map-marker</p>
+    <p><i class="halflings-icon white adjust"></i>adjust</p>
+    <p><i class="halflings-icon white tint"></i>tint</p>
+    <p><i class="halflings-icon white edit"></i>edit</p>
+    <p><i class="halflings-icon white share"></i>share</p>
+    <p><i class="halflings-icon white check"></i>check</p>
+    <p><i class="halflings-icon white move"></i>move</p>
+    <p><i class="halflings-icon white step-backward"></i>step-backward</p>
+    <p><i class="halflings-icon white fast-backward"></i>fast-backward</p>
+    <p><i class="halflings-icon white backward"></i>backward</p>
+    <p><i class="halflings-icon white play"></i>play</p>
+    <p><i class="halflings-icon white pause"></i>pause</p>
+    <p><i class="halflings-icon white stop"></i>stop</p>
+    <p><i class="halflings-icon white forward"></i>forward</p>
+    <p><i class="halflings-icon white fast-forward"></i>fast-forward</p>
+    <p><i class="halflings-icon white step-forward"></i>step-forward</p>
+    <p><i class="halflings-icon white eject"></i>eject</p>
+    <p><i class="halflings-icon white chevron-left"></i>chevron-left</p>
+    <p><i class="halflings-icon white chevron-right"></i>chevron-right</p>
+    <p><i class="halflings-icon white plus-sign"></i>plus-sign</p>
+    <p><i class="halflings-icon white minus-sign"></i>minus-sign</p>
+    <p><i class="halflings-icon white remove-sign"></i>remove-sign</p>
+    <p><i class="halflings-icon white ok-sign"></i>ok-sign</p>
+    <p><i class="halflings-icon white question-sign"></i>question-sign</p>
+    <p><i class="halflings-icon white info-sign"></i>info-sign</p>
+    <p><i class="halflings-icon white screenshot"></i>screenshot</p>
+    <p><i class="halflings-icon white remove-circle"></i>remove-circle</p>
+    <p><i class="halflings-icon white ok-circle"></i>ok-circle</p>
+    <p><i class="halflings-icon white ban-circle"></i>ban-circle</p>
+    <p><i class="halflings-icon white arrow-left"></i>arrow-left</p>
+    <p><i class="halflings-icon white arrow-right"></i>arrow-right</p>
+    <p><i class="halflings-icon white arrow-up"></i>arrow-up</p>
+    <p><i class="halflings-icon white arrow-down"></i>arrow-down</p>
+    <p><i class="halflings-icon white share-alt"></i>share-alt</p>
+    <p><i class="halflings-icon white resize-full"></i>resize-full</p>
+    <p><i class="halflings-icon white resize-small"></i>resize-small</p>
+    <p><i class="halflings-icon white plus"></i>plus</p>
+    <p><i class="halflings-icon white minus"></i>minus</p>
+    <p><i class="halflings-icon white asterisk"></i>asterisk</p>
+    <p><i class="halflings-icon white exclamation-sign"></i>exclamation-sign</p>
+    <p><i class="halflings-icon white gift"></i>gift</p>
+    <p><i class="halflings-icon white leaf"></i>leaf</p>
+    <p><i class="halflings-icon white fire"></i>fire</p>
+    <p><i class="halflings-icon white eye-open"></i>eye-open</p>
+    <p><i class="halflings-icon white eye-close"></i>eye-close</p>
+    <p><i class="halflings-icon white warning-sign"></i>warning-sign</p>
+    <p><i class="halflings-icon white plane"></i>plane</p>
+    <p><i class="halflings-icon white calendar"></i>calendar</p>
+    <p><i class="halflings-icon white random"></i>random</p>
+    <p><i class="halflings-icon white comments"></i>comments</p>
+    <p><i class="halflings-icon white magnet"></i>magnet</p>
+    <p><i class="halflings-icon white chevron-up"></i>chevron-up</p>
+    <p><i class="halflings-icon white chevron-down"></i>chevron-down</p>
+    <p><i class="halflings-icon white retweet"></i>retweet</p>
+    <p><i class="halflings-icon white shopping-cart"></i>shopping-cart</p>
+    <p><i class="halflings-icon white folder-close"></i>folder-close</p>
+    <p><i class="halflings-icon white folder-open"></i>folder-open</p>
+    <p><i class="halflings-icon white resize-vertical"></i>resize-vertical</p>
+    <p><i class="halflings-icon white resize-horizontal"></i>resize-horizontal</p>
+    <p><i class="halflings-icon white hdd"></i>hdd</p>
+    <p><i class="halflings-icon white bullhorn"></i>bullhorn</p>
+    <p><i class="halflings-icon white bell"></i>bell</p>
+    <p><i class="halflings-icon white certificate"></i>certificate</p>
+    <p><i class="halflings-icon white thumbs-up"></i>thumbs-up</p>
+    <p><i class="halflings-icon white thumbs-down"></i>thumbs-down</p>
+    <p><i class="halflings-icon white hand-right"></i>hand-right</p>
+    <p><i class="halflings-icon white hand-left"></i>hand-left</p>
+    <p><i class="halflings-icon white hand-top"></i>hand-top</p>
+    <p><i class="halflings-icon white hand-down"></i>hand-down</p>
+    <p><i class="halflings-icon white circle-arrow-right"></i>circle-arrow-right</p>
+    <p><i class="halflings-icon white circle-arrow-left"></i>circle-arrow-left</p>
+    <p><i class="halflings-icon white circle-arrow-top"></i>circle-arrow-top</p>
+    <p><i class="halflings-icon white circle-arrow-down"></i>circle-arrow-down</p>
+    <p><i class="halflings-icon white globe"></i>globe</p>
+    <p><i class="halflings-icon white wrench"></i>wrench</p>
+    <p><i class="halflings-icon white tasks"></i>tasks</p>
+    <p><i class="halflings-icon white filter"></i>filter</p>
+    <p><i class="halflings-icon white briefcase"></i>briefcase</p>
+    <p><i class="halflings-icon white fullscreen"></i>fullscreen</p>
+    <p><i class="halflings-icon white dashboard"></i>dashboard</p>
+    <p><i class="halflings-icon white paperclip"></i>paperclip</p>
+    <p><i class="halflings-icon white heart-empty"></i>heart-empty</p>
+    <p><i class="halflings-icon white link"></i>link</p>
+    <p><i class="halflings-icon white phone"></i>phone</p>
+    <p><i class="halflings-icon white pushpin"></i>pushpin</p>
+    <p><i class="halflings-icon white euro"></i>euro</p>
+    <p><i class="halflings-icon white usd"></i>usd</p>
+    <p><i class="halflings-icon white gbp"></i>gbp</p>
+    <p><i class="halflings-icon white sort"></i>sort</p>
+    <p><i class="halflings-icon white sort-by-alphabet"></i>sort-by-alphabet</p>
+    <p><i class="halflings-icon white sort-by-alphabet-alt"></i>sort-by-alphabet-alt</p>
+    <p><i class="halflings-icon white sort-by-order"></i>sort-by-order</p>
+    <p><i class="halflings-icon white sort-by-order-alt"></i>sort-by-order-alt</p>
+    <p><i class="halflings-icon white sort-by-attributes"></i>sort-by-attributes</p>
+    <p><i class="halflings-icon white sort-by-attributes-alt"></i>sort-by-attributes-alt</p>
+    <p><i class="halflings-icon white unchecked"></i>unchecked</p>
+    <p><i class="halflings-icon white expand"></i>expand</p>
+    <p><i class="halflings-icon white collapse"></i>collapse</p>
+    <p><i class="halflings-icon white collapse-top"></i>collapse-top</p>
+</div>
+
+</body>
+</html>

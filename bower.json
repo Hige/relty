@@ -1,0 +1,19 @@
+{
+  "name": "reltys",
+  "version": "1.0.0",
+  "authors": [
+    "Hig <room.4423@gmail.com>"
+  ],
+  "description": "Basic template.",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://room-4423.myjino.ru",
+  "dependencies": {
+    "sites-version": "~6.1.2",
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+  ],
+  "private": true
+}
